@@ -10,72 +10,72 @@ export const myProjects = [
       "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
       "Added payment systems, localization, and product filtering for functionality improvements.",
     ],
-    href: "",
+    href: "https://hazuku.com",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/hazuku.png",
     tags: [
       {
         id: 1,
-        name: "C#",
+        name: "Shopify",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 2,
-        name: ".Net",
+        name: "Liquidity",
         path: "/assets/logos/dotnet.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
+        name: "Html",
         path: "/assets/logos/efcore.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Javascript",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   title: "Authentication & Authorization System",
+  //   description:
+  //     "A secure authentication and authorization system using Auth0 for seamless user management.",
+  //   subDescription: [
+  //     "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
+  //     "Implemented role-based access control (RBAC) for fine-grained user permissions.",
+  //     "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
+  //     "Connected to a secure SQLite database for user data storage.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/auth-system.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "Auth0",
+  //       path: "/assets/logos/auth0.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "React",
+  //       path: "/assets/logos/react.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "SQLite",
+  //       path: "/assets/logos/sqlite.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "AdsGPT Web App",
     description:
       "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
     subDescription: [
@@ -84,9 +84,9 @@ export const myProjects = [
       "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
       "Integrated SQLite for efficient client-side database storage.",
     ],
-    href: "",
+    href: "https://adsgpt.io/",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/ads.png",
     tags: [
       {
         id: 1,
@@ -112,7 +112,7 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Powerdao",
     description:
       "A lightweight C++ game engine designed for 2D and 3D game development.",
     subDescription: [
@@ -121,9 +121,9 @@ export const myProjects = [
       "Implemented a scripting system for easy game customization.",
       "Optimized performance with multi-threading and efficient memory management.",
     ],
-    href: "",
+    href: "https://powerdao.ai/",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/Powerdao.png",
     tags: [
       {
         id: 1,
@@ -184,43 +184,43 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   title: "Online Learning Platform",
+  //   description:
+  //     "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+  //   subDescription: [
+  //     "Built using Blazor WebAssembly for a seamless SPA experience.",
+  //     "Implemented video streaming with Azure Media Services.",
+  //     "Added a quiz system with dynamic question generation and real-time grading.",
+  //     "Integrated Stripe API for secure payment processing.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/elearning.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "Blazor",
+  //       path: "/assets/logos/blazor.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Azure",
+  //       path: "/assets/logos/azure.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Stripe",
+  //       path: "/assets/logos/stripe.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
 ];
 
 export const mySocials = [
@@ -240,42 +240,42 @@ export const mySocials = [
     icon: "/assets/socials/instagram.svg",
   },
 ];
-
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
+    title: "Freelance Frontend Developer & UI/UX Designer",
     job: "Self-Employed",
-    date: "2025-Present",
+    date: "2023",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Designed and developed responsive UIs for personal and client projects using Figma, Tailwind CSS, and React.",
+      "Built engaging frontend experiences with animations using GSAP and Framer Motion.",
+      "Created reusable UI component libraries and contributed to open-source design systems.",
+      "Focused on improving design thinking and user-centric workflows through freelance work.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    job: "Globussoft Technologies",
+    date: "2024–Present",
+    contents: [
+      "Developing scalable full-stack applications using Node.js, Express, MongoDB, and React.",
+      "Engineered APIs and backend logic for SaaS platforms and enterprise applications.",
+      "Collaborated with cross-functional teams to build features in a CI/CD environment.",
+      "Integrated AI tools, authentication systems, and real-time features in production apps.",
+    ],
+  },
+  {
+    title: "Full-Stack Developer",
+    job: "Personal Projects & Learning",
+    date: "2024–Present",
+    contents: [
+      "Building diverse web platforms such as multilingual news portals and matchmaking systems.",
+      "Experimenting with Three.js, shaders, canvas animations, and advanced React patterns.",
+      "Learning system design, cloud deployment, and backend infrastructure with a focus on performance.",
+      "Documenting and sharing open-source contributions and projects on GitHub and portfolio.",
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",

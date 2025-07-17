@@ -29,6 +29,10 @@
   --animate-marquee: marquee 50s linear infinite;
   --animate-marquee-vertical: marquee-vertical 50s linear infinite;
 
+
+  
+
+
   @keyframes marquee {
     from {
       transform: translateX(0);
@@ -135,4 +139,18 @@ body {
 
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
+}
+/* Text selection styling */
+::selection {
+  background-color: #f472b6; /* Tailwind's pink-400 */
+  color: white;
+}
+
+
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
 }
