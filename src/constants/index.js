@@ -121,7 +121,7 @@ export const myProjects = [
       "Implemented a scripting system for easy game customization.",
       "Optimized performance with multi-threading and efficient memory management.",
     ],
-    href: "https://powerdao.ai/",
+    href: "https://powerdao.a/",
     logo: "",
     image: "/assets/projects/Powerdao.png",
     tags: [
